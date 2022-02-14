@@ -25,7 +25,7 @@ gbPlusBtn.addEventListener('click', function(e) {
 });
 
 // HINT: You can delete this console.log after you no longer need it!
-console.log('Gingerbread + button was clicked!')
+
 
 // TODO: Write the code to be run when the "+" button for "Gingerbread" is clicked
 
