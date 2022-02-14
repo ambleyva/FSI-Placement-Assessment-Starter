@@ -13,7 +13,7 @@ const credit = document.querySelector('#credit')
 const gbPlusBtn = document.querySelector('#add-gb')
 
 // Code to update name display
-credit.textContent = `Created by ${Amber}`
+credit.textContent = `Created by ${yourName}`
 
 // Event listener for clicks on the "+" button for Gingerbread cookies
 gbPlusBtn.addEventListener('click', function(e) {
