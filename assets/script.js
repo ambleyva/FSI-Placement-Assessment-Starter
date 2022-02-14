@@ -1,7 +1,7 @@
 // HINT: You can delete this console.log after you no longer need it!
 console.log('JavaScript code has loaded!')
 // First, tell us your name
-let yourName = "Jane Doe" // HINT: Replace this with your own name!
+let yourName = "Amber Rose Leyva" // HINT: Replace this with your own name!
 
 // We'll use these variables to track the counts of each cookie type
 let gb = 0 // Gingerbread
@@ -14,10 +14,15 @@ const credit = document.querySelector('#credit')
 const gbPlusBtn = document.querySelector('#add-gb')
 
 // Code to update name display
-credit.textContent = `Created by ${yourName}`
+credit.textContent = `Created by ${AmberLeyva}`
 
 // Event listener for clicks on the "+" button for Gingerbread cookies
-gbPlusBtn.addEventListener('click', function() {
+gbPlusBtn.addEventListener('click', function(e) {
+    let gbPlusVoteCount = parseInt(gbplusVotesCell.textContent);
+    gbPlusVoteCount = gbplusVotesCell + 1;
+    gbplusVotesCell.textContent = gbPlusVoteCount;
+});
+
 // HINT: You can delete this console.log after you no longer need it!
 console.log('Gingerbread + button was clicked!')
 
