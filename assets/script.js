@@ -27,6 +27,6 @@ gbPlusBtn.addEventListener('click', function(e) {
 console.log('Gingerbread + button was clicked!')
 
 // TODO: Write the code to be run when the "+" button for "Gingerbread" is clicked
-})
+
 
 // TODO: Hook up event listeners for the rest of the buttons
