@@ -16,10 +16,12 @@ const gbPlusBtn = document.querySelector('#add-gb')
 credit.textContent = `Created by ${yourName}`
 
 // Event listener for clicks on the "+" button for Gingerbread cookies
+let gbPlusVotesCell = document.querySelector('#qty-gb');
+
 gbPlusBtn.addEventListener('click', function(e) {
-    let gbPlusVoteCount = parseInt(qtygbVotesCell.textContent);
-    gbPlusVoteCount = qtygbVotesCell + 1;
-    qtygbVotesCell.textContent = gbPlusVoteCount;
+    let gbPlusVoteCount = parseInt(gbPlusVotesCell.textContent);
+    gbPlusVoteCount = gbPlusVotesCell + 1;
+    gbPlusVotesCell.textContent = gbPlusVoteCount;
 });
 
 // HINT: You can delete this console.log after you no longer need it!
