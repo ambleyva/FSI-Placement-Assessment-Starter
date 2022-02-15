@@ -21,8 +21,8 @@ if(document.getElementsByTagName("qty-gb") != null){
 }
 
 gbPlusBtn.addEventListener('click', function(e) {
-    let gbPlusVotesCount = parseInt(gbPlusVotesCell[0].innerHTML);
+    let gbPlusVotesCount = parseInt(gbPlusVotesCell.textContent);
     gbPlusVotesCount = gbPlusVotesCount + 1;
-    gbPlusVotesCell.innerHTML = gbPlusVotesCount;
+    gbPlusVotesCell.textContent = gbPlusVotesCount;
 });
 console.log('Gingerbread + button was clicked!')
