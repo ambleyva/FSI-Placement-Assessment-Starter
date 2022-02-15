@@ -21,7 +21,7 @@ if(document.getElementsByTagName("qty-gb") != null){
 }
 
 gbPlusBtn.addEventListener('click', function(e) {
-    let gbPlusVotesCount = parseInt(gbPlusVotesCell.innerHTML);
+    let gbPlusVotesCount = parseInt(gbPlusVotesCell[0].innerHTML);
     gbPlusVotesCount = gbPlusVotesCount + 1;
     gbPlusVotesCell.innerHTML = gbPlusVotesCount;
 });
