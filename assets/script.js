@@ -16,8 +16,8 @@ const gbPlusBtn = document.querySelector('#add-gb')
 credit.textContent = `Created by ${yourName}`
 
 // Event listener for clicks on the "+" button for Gingerbread cookies
-if(document.getElementById("qty-gb") != null){
-    var gbPlusVotesCell=document.getElementById("qty-gb")[0];
+if(document.getElementsByTagName("qty-gb") != null){
+    var gbPlusVotesCell=document.getElementsByTagName("qty-gb")[0];
 }
 
 gbPlusBtn.addEventListener('click', function(e) {
