@@ -21,9 +21,9 @@ if(document.getElementById("status") != null){
 }
 
 gbPlusBtn.addEventListener('click', function(e) {
-    let gbPlusVoteCount = parseInt(gbPlusVotesCell.textContent);
+    let gbPlusVoteCount = parseInt(gbPlusVotesCell.innerHTML);
     gbPlusVoteCount = gbPlusVotesCell + 1;
-    gbPlusVotesCell.textContent = gbPlusVoteCount;
+    gbPlusVotesCell.innerHTML = gbPlusVoteCount;
 });
 
 // HINT: You can delete this console.log after you no longer need it!
