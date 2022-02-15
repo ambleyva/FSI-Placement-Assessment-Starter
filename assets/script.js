@@ -26,14 +26,3 @@ gbPlusBtn.addEventListener('click', function(e) {
     gbPlusVotesCell.textContent = gbPlusVotesCount;
 });
 
-// Negative gb
-let gbMinusBtn = document.querySelector("#qty-gb").innerHTML;
-
-gbMinusBtn.addEventListener('click', function (e){
-    let gbMinusVotesCount = parseInt(gbMinusVotesCell.textContent);
-    gbMinusVotesCount = gbMinusVotesCount - 1;
-    gbMinusVotesCell.textContent = gbMinusVotesCount;
-    
-});
-
-//Plus Chocolate Chip 
