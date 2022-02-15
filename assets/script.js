@@ -27,7 +27,7 @@ gbPlusBtn.addEventListener('click', function(e) {
 });
 
 // Negative gb
-const gbMinusBtn = querySelector('#minus-gb')
+const gbMinusBtn = document.querySelector('#minus-gb')
 if(document.getElementById("qty-gb") != null){
     var gbMinusVotesCell = document.getElementById('qty-gb').innerHTML;
 }
