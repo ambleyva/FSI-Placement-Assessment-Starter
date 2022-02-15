@@ -25,4 +25,4 @@ gbPlusBtn.addEventListener('click', function(e) {
     gbPlusVotesCount = gbPlusVotesCount + 1;
     gbPlusVotesCell.textContent = gbPlusVotesCount;
 });
-
+console.log('Gingerbread + button was clicked!')
