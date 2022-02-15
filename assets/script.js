@@ -33,7 +33,7 @@ if(document.getElementById("qty-gb") != null){
 }
 gbMinusBtn.addEventListener('click', function (e){
     let gbMinusVotesCount = parseInt(gbMinusVotesCell.textContent);
-    gbMinusVotesCount = gbMinusVotesCount + 1;
+    gbMinusVotesCount = gbMinusVotesCount - 1;
     gbMinusVotesCell.textContent = gbMinusVotesCount;
     
 });
