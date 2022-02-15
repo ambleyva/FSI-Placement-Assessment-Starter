@@ -20,7 +20,7 @@ credit.textContent = `Created by ${yourName}`
 let gbPlusVotesCell=document.getElementById ("qty-gb").textContent;
 
 
-gbPlusBtn.addEventListener('click', function(e) {
+gbPlusBtn.addEventListener('click', function(_e) {
     let gbPlusVotesCount = parseInt(gbPlusVotesCell.textContent);
     gbPlusVotesCount = gbPlusVotesCount + 1;
     gbPlusVotesCell.textContent = gbPlusVotesCount;
