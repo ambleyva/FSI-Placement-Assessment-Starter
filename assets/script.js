@@ -10,7 +10,7 @@ let sugar = 0 // Sugar Sprinkle
 // selecting the element with an id of credit
 const credit = document.querySelector('#credit')
 // selecting the element with an id of add-gb
-const gbPlusBtn.textContent= document.querySelector('#add-gb')
+const gbPlusBtn= document.querySelector('#add-gb')
 
 // Code to update name display
 credit.textContent = `Created by ${yourName}`
