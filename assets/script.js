@@ -16,7 +16,7 @@ const gbPlusBtn = document.querySelector('#add-gb')
 credit.textContent = `Created by ${yourName}`
 
 // Event listener for clicks on the "+" button for Gingerbread cookies
-if(document.getElementById("status") != null){
+if(document.getElementById("qty-gb") != null){
     var gbPlusVotesCell=document.getElementById("qty-gb").innerHTML;
 }
 
@@ -25,10 +25,17 @@ gbPlusBtn.addEventListener('click', function(e) {
     gbPlusVotesCount = gbPlusVotesCount + 1;
     gbPlusVotesCell.textContent = gbPlusVotesCount;
 });
-// HINT: You can delete this console.log after you no longer need it!
 
+// Negative gb
+const gbMinusBtn = querySelector('#minus-gb')
+if(document.getElementById("qty-gb") != null){
+    var gbMinusVotesCell = document.getElementById('qty-gb').innerHTML;
+}
+gbMinusBtn.addEventListener('click', function (e){
+    let gbMinusVotesCount = parseInt(gbMinusVotesCell.textContent);
+    gbMinusVotesCount = gbMinusVotesCount + 1;
+    gbMinusVotesCell.textContent = gbMinusVotesCount;
+    
+});
 
-// TODO: Write the code to be run when the "+" button for "Gingerbread" is clicked
-
-
-// TODO: Hook up event listeners for the rest of the buttons
+//Plus Chocolate Chip 
