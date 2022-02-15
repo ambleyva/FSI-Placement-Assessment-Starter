@@ -20,12 +20,11 @@ if(document.getElementById("status") != null){
     var gbPlusVotesCell=document.getElementById("qty-gb").innerHTML;
 }
 
-gbPlusBtn.addEventListener('click', function(e) {
-    let gbPlusVoteCount = parseInt(gbPlusVotesCell.innerHTML);
-    gbPlusVoteCount = gbPlusVotesCell + 1;
-    gbPlusVotesCell.innerHTML = gbPlusVoteCount;
+gbVoteBtn.addEventListener('click', function(e) {
+    let gbPlusVotesCount = parseInt(gbPlusVotesCell.textContent);
+    gbPlusVotesCount = gbPlusVotesCount + 1;
+    gbPlusVotesCell.textContent = gbPlusVotesCount;
 });
-
 // HINT: You can delete this console.log after you no longer need it!
 
 
