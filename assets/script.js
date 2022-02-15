@@ -17,7 +17,7 @@ credit.textContent = `Created by ${yourName}`
 
 // Event listener for clicks on the "+" button for Gingerbread cookies
 
-let gbPlusVotesCell=document.getElementsById("qty-gb").textContent;
+let gbPlusVotesCell=document.getElementById ("qty-gb").textContent;
 
 
 gbPlusBtn.addEventListener('click', function(e) {
