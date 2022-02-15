@@ -20,7 +20,7 @@ if(document.getElementById("status") != null){
     var gbPlusVotesCell=document.getElementById("qty-gb").innerHTML;
 }
 
-gbVoteBtn.addEventListener('click', function(e) {
+gbPlusBtn.addEventListener('click', function(e) {
     let gbPlusVotesCount = parseInt(gbPlusVotesCell.textContent);
     gbPlusVotesCount = gbPlusVotesCount + 1;
     gbPlusVotesCell.textContent = gbPlusVotesCount;
