@@ -37,6 +37,8 @@ let ccTallyCount = ccPlusBtn + ccMinusBtn
 
 let scTallyCount = scPlusBtn + scPlusBtn
 
+let ccTallyCount = gbTallyCount + ccTallyCount + scTallyCount
+
 
 // Event listener for clicks on the "+" button for Gingerbread cookies
 
