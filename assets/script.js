@@ -23,11 +23,11 @@ const ccMinusBtn = document.querySelector('#minus-cc')
 const scPlusBtn = document.querySelector('#add-sugar')
 const scMinusBtn = document.querySelector('#Minus-sugar')
 
-const gbTallyCount = document.querySelector('#qty-gb')
-const ccTallyCount = document.querySelector('#qty-cc')
-const ssTallyCount = document.querySelector('#qty-sugar')
+const gbTallyCount = document.querySelector('#qty-gb').textContent
+const ccTallyCount = document.querySelector('#qty-cc').textContent
+const ssTallyCount = document.querySelector('#qty-sugar').textContent
 
-const ctTallyCount = document.querySelector('#qty-total')
+const ctTallyCount = document.querySelector('#qty-total').textContent
 
 
 //Attach Tally Count to Qty 
@@ -42,13 +42,13 @@ let ccTallyCount = gbTallyCount + ccTallyCount + scTallyCount
 
 // Event listener for clicks on the "+" button for Gingerbread cookies
 
-let gbPlusVotesCell = document.getElementById("qty-gb").textContent;
+let gbTallyCount = document.getElementById("qty-gb").textContent;
 
 
 
-gbPlusBtn.addEventListener('click', function( ) {
-    let gbPlusVotesCount = parseInt(gbPlusVotesCell.textContent);
-    gbPlusVotesCount = gbPlusVotesCount + 1;
+gbPlusBtn.addEventListener('click', function(e) {
+    let gbTallyCount = parseInt(gbPlusVotesCell.textContent);
+    gbTallyCount = gbTallyCount + 1;
     gbPlusVotesCell.textContent = gbPlusVotesCount;
 });
 console.log('Gingerbread + button was clicked!')
