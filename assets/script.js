@@ -23,7 +23,19 @@ const ccMinusBtn = document.querySelector('#minus-cc')
 const scPlusBtn = document.querySelector('#add-sugar')
 const scMinusBtn = document.querySelector('#Minus-sugar')
 
+const gbTallyCount = document.querySelector('#qty-gb')
+const ccTallyCount = document.querySelector('#qty-cc')
+const ssTallyCount = document.querySelector('#qty-sugar')
+
+const ctTallyCount = document.querySelector('#qty-total')
+
+
 //Attach Tally Count to Qty 
+let gbTallyCount = gbPlusBtn + gbMinusBtn
+
+let ccTallyCount = ccPlusBtn + ccMinusBtn
+
+let scTallyCount = scPlusBtn + scPlusBtn
 
 
 // Event listener for clicks on the "+" button for Gingerbread cookies
