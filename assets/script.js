@@ -32,9 +32,9 @@ const ctTallyCount = document.querySelector('#qty-total').textContent
 
 
 // Event listener for clicks on the "+" button for Gingerbread cookies
-let count = 0;
+const count = 0;
 gbPlusBtn.addEventListener('click', function(e) {
     count ++;
-    gbCounter.innerhtml = Count;
+    gbCounter.innerhtml = count;
 });
 
