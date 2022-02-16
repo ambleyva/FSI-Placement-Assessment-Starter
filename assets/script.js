@@ -35,6 +35,6 @@ const ctTallyCount = document.querySelector('#qty-total').textContent
 const count = 0;
 gbPlusBtn.addEventListener('click', function(e) {
     count +1;
-    gbCounter.innerhtml = count;
+    gbCounter.textContent = count;
 });
 
