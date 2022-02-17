@@ -38,7 +38,6 @@ gbPlusBtn.addEventListener('click', function(e) {
     gbCounter.textContent = count;
 });
 
-var count = 0;
 gbMinusBtn.addEventListener('click', function(j){
     count --;
     gbCounter.textcontent = count;
