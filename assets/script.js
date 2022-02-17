@@ -59,12 +59,6 @@ scPlusBtn.addEventListener('click', function(e) {
     scCounter.textContent = count2;
 });
 
-scMinusBtn.addEventListener('click', function(e){
-    count2 --;
-    scCounter.textContent = count2
-    ;
-});
-
 var tableElem = document.getElementById('qty-table')
 
 tableElem.textContent = count + count1 + count2
