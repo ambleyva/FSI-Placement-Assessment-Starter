@@ -39,7 +39,7 @@ gbPlusBtn.addEventListener('click', function(e) {
 });
 
 var count = 0;
-gbMinusBtn.addEventListener('click', function(){
+gbMinusBtn.addEventListener('click', function(j){
     count --;
     gbCounter.textcontent = count;
 });
