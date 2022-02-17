@@ -63,5 +63,5 @@ var count2 = 0;
 scPlusBtn.addEventListener('click', function(e) {
     count2 ++;
     scCounter.textContent = count2;
-    qtCounter.textContent = count2; count1; count
+    qtCounter.textContent = (count2; count1; count)
 });
