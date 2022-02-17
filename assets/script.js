@@ -23,7 +23,7 @@ const ccMinusBtn = document.querySelector('#minus-cc')
 const scPlusBtn = document.querySelector('#add-sugar')
 const scMinusBtn = document.querySelector('#Minus-sugar')
 
-const gbCounter = document.querySelector('#qty-gb').textContent
+const gbCounter = document.querySelector('#qty-gb')
 const ccCounter = document.querySelector('#qty-cc').textContent
 const scCounter = document.querySelector('#qty-sugar').textContent
 
@@ -35,6 +35,6 @@ const ctTallyCount = document.querySelector('#qty-total').textContent
 const count = 0;
 gbPlusBtn.addEventListener('click', function(e) {
     count +1;
-    gbCounter.textContent = count;
+    gbCounter = count;
 });
 
