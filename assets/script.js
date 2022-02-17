@@ -29,8 +29,6 @@ const scCounter = document.querySelector('#qty-sugar')
 
 let ctTallyCount = document.querySelector('#qty-total')
 
-var ctTallyCount = gbCounter + ccCounter + scCounter
-
 // Event listener for Gingerbread cookies
 var count = 0;
 gbPlusBtn.addEventListener('click', function(e) {
