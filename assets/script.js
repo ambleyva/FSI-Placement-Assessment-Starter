@@ -23,7 +23,7 @@ const ccMinusBtn = document.querySelector('#minus-cc')
 const scPlusBtn = document.querySelector('#add-sugar')
 const scMinusBtn = document.querySelector('#Minus-sugar')
 
-const gbCounter = document.querySelector('#qty-gb')
+const gbCounter = document.querySelector('#qty-gb').textContent
 const ccCounter = document.querySelector('#qty-cc').textContent
 const scCounter = document.querySelector('#qty-sugar').textContent
 
