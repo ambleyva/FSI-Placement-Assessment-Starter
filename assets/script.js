@@ -41,6 +41,7 @@ gbPlusBtn.addEventListener('click', function(e) {
 gbMinusBtn.addEventListener('click', function(e){
     count --;
     gbCounter.textContent = count;
+    qtCounter.textContent = count;
 });
 
 // Event Listner for clicks cc
@@ -48,11 +49,13 @@ var count1 = 0;
 ccPlusBtn.addEventListener('click', function(e) {
     count1 ++;
     ccCounter.textContent = count1;
+    qtCounter.textContent = count1;
 });
 
 ccMinusBtn.addEventListener('click', function(e) {
     count1 --;
     ccCounter.textContent = count1;
+    qtCounter.textContent = count1;
 });
 
 //Event Listner for sc
@@ -60,4 +63,5 @@ var count2 = 0;
 scPlusBtn.addEventListener('click', function(e) {
     count2 ++;
     scCounter.textContent = count2;
+    qtCounter.textContent = count2;
 });
