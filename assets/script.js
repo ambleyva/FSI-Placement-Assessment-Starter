@@ -27,12 +27,15 @@ const gbCounter = document.querySelector('#qty-gb')
 const ccCounter = document.querySelector('#qty-cc')
 const scCounter = document.querySelector('#qty-sugar')
 
+const qtCounter = document.querySelector('#qty-total')
+
 
 // Event listener for Gingerbread cookies
 var count = 0;
 gbPlusBtn.addEventListener('click', function(e) {
     count ++;
     gbCounter.textContent = count;
+    qtCounter.textContent = count;
 });
 
 gbMinusBtn.addEventListener('click', function(e){
@@ -58,7 +61,3 @@ scPlusBtn.addEventListener('click', function(e) {
     count2 ++;
     scCounter.textContent = count2;
 });
-
-var tableElem = document.getElementById('qty-table')
-
-tableElem.textContent = count + count1 + count2
