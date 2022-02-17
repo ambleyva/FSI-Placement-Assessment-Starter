@@ -37,4 +37,3 @@ gbPlusBtn.addEventListener('click', function(e) {
     count++
     gbCounter.textContent = count;
 });
-
